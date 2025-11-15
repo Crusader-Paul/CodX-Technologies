@@ -1,0 +1,3 @@
+name,slug,description,price,stock,category,brand,image
+CodX Ultrabook 14,codx-ultrabook-14,Lightweight laptop 8GB/256GB,3199.0,10,Laptops,CodX,images/laptop-1.jpg
+CodX Workstation T7,codx-workstation-t7,Powerful workstation 32GB/RTX3060,8999.0,5,Desktops,CodX,images/desktop-1.jpg
