@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>CodX Technologies — Home</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="header container">
+  <div class="brand">
+    <div class="logo">CT</div>
+    <div>
+      <div style="font-weight:700">CodX Technologies</div>
+      <div style="font-size:12px;color:var(--muted)">Computers • Laptops • Parts • Accessories</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="products.html">Shop</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="left">
+      <h1>Powering your work and play</h1>
+      <p style="color:var(--muted)">Shop laptops, desktops, components and accessories — curated for performance and value.</p>
+      <p style="margin-top:14px"><a class="btn" href="products.html">Shop Now</a></p>
+      <div style="margin-top:18px;color:var(--muted)">
+        <strong>Featured brands:</strong> Dell • HP • Lenovo • Asus • Corsair • NVIDIA
+      </div>
+    </div>
+    <aside class="right">
+      <h3 style="margin:0 0 8px 0">Deal of the day</h3>
+      <div class="card">
+        <img src="images/deal-laptop.jpg" alt="Deal laptop" />
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><div class="title">CodX ProBook X15</div><div class="meta">16GB • 512GB SSD • i7</div></div>
+          <div class="price">GHS 4,499.00</div>
+        </div>
+        <p style="margin-top:8px"><a class="btn small" href="product-details.html?id=1">Buy Now</a></p>
+      </div>
+    </aside>
+  </section>
+
+  <h3 style="margin-top:18px">Popular Products</h3>
+  <div id="popular" class="grid">
+    <!-- Example static cards; replace with dynamic server-rendered content -->
+    <div class="card">
+      <img src="images/laptop-1.jpg" alt="">
+      <div class="title">CodX Ultrabook 14</div>
+      <div class="meta">8GB • 256GB SSD</div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div class="price">GHS 3,199.00</div>
+        <button data-id="1" class="btn small add-to-cart">Add</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/monitor.jpg" alt="">
+      <div class="title">UltraWide Monitor 34"</div>
+      <div class="meta">3440x1440 • 100Hz</div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div class="price">GHS 5,299.00</div>
+        <button data-id="2" class="btn small add-to-cart">Add</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+<footer class="footer container">
+  &copy; CodX Technologies — Built with care. Customize this template before production.
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
